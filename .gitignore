@@ -11,3 +11,6 @@ pubspec.lock
 
 # Generated files
 *.g.dart
+
+# Created by MacOS
+.DS_Store
