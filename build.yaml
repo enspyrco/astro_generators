@@ -1,13 +1,13 @@
 targets:
   $default:
     builders:
-      astro_generators|annotations:
+      builders_for_perception|annotations:
         enabled: true
 
 builders:
-  astro_generators:
-    target: ":astro_generators"
-    import: "package:astro_generators/astro_builder.dart"
+  builders_for_perception:
+    target: ":builders_for_perception"
+    import: "package:builders_for_perception/astro_builder.dart"
     builder_factories: ["astroState"]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents
