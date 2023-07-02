@@ -1,6 +1,6 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:builders_for_perception/src/infos/field_info.dart';
-import 'package:astro_types/astro_annotations.dart';
+import 'package:types_for_perception/astro_annotations.dart';
 import 'package:build/build.dart' show BuildStep;
 import 'package:source_gen/source_gen.dart';
 
