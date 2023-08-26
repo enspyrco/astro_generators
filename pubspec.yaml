@@ -1,5 +1,5 @@
 name: builders_for_perception
-description: Builders for generating classes in apps using astro.
+description: Builders for generating classes in apps using perception.
 publish_to: none
 version: 0.0.0-a1
 

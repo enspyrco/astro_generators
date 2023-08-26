@@ -7,8 +7,8 @@ targets:
 builders:
   builders_for_perception:
     target: ":builders_for_perception"
-    import: "package:builders_for_perception/astro_builder.dart"
-    builder_factories: ["astroState"]
+    import: "package:builders_for_perception/builders_for_perception.dart"
+    builder_factories: ["beliefsBuilderFactory"]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents
     build_to: cache

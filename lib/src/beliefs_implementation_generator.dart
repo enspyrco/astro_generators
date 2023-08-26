@@ -1,6 +1,6 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:builders_for_perception/src/infos/field_info.dart';
-import 'package:types_for_perception/astro_annotations.dart';
+import 'package:types_for_perception/perception_annotations.dart';
 import 'package:build/build.dart' show BuildStep;
 import 'package:source_gen/source_gen.dart';
 
@@ -14,7 +14,7 @@ import 'model_visitor.dart';
 /// We remove any leading '_' on the incoming class name, which allows for a
 /// private class to be used to implement an external interface, so we don't
 /// get an extra class in the namespace that has no purpose.
-class StateImplementationGenerator
+class BeliefsImplementationGenerator
     extends GeneratorForAnnotation<GeneratedImplementation> {
   @override
   String generateForAnnotatedElement(

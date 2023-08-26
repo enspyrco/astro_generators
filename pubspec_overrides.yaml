@@ -1,9 +1,15 @@
 dependency_overrides:
-  types_for_perception:
-    git: https://github.com/enspyrco/types_for_perception
+  # types_for_perception:
+  #   git: https://github.com/enspyrco/types_for_perception
+  types_for_auth:
+    git: https://github.com/enspyrco/types_for_auth
+  json_utils:
+    git: https://github.com/enspyrco/json_utils
   enspyr_lints:
     git: https://github.com/enspyrco/enspyr_lints
 
+# where are we? flutter/utils/perception/<here>
+
 # dependency_overrides:
-#   types_for_perception:
-#     path: ../types_for_perception
+  types_for_perception:
+    path: ../types_for_perception
